@@ -1,0 +1,47 @@
+{
+	"strings": {
+		"aportes_sociales": { "label": "Aportes Sociales", "forward": "Gracias por iniciar este juego con tus <strong class='highlight-success'>aportes sociales</strong>. Descubrirás que juntos es mejor y rinde más. Sigue por el camino de la cooperación." },
+		"propiedad_colectiva": { "label": "Propiedad colectiva", "forward": "¡Muy bien! Gracias a tus aportes sociales ahora participas de esta <strong class='highlight-success'>propiedad colectiva</strong>; es decir, que es de todos y todas. Sigue navegando, en el faro nos esperan." },
+		"cooperacion": { "label": "Cooperación", "forward": "Y como esta isla también es tuya, aquí venimos a <strong class='highlight-success'>cooperar</strong>; es decir, a trabajar colectivamente. Recuerda… ¡juntos es mejor y rinde más! ¿Y ahora para dónde vas?" },
+		"economia_social": { "label": "Economía social", "forward": "¡Llegaste a la <strong class='highlight-success'>economía social</strong>! Esta es la economía que busca el máximo beneficio para todos y para todas, tanto de quienes hacemos parte de esta propiedad colectiva (gracias a los aportes sociales) como para el resto de la comunidad. ¿Hacia dónde quieres ir?" },
+		"comercio_justo": { "label": "Comercio justo", "forward": "El <strong class='highlight-success'>comercio justo</strong> es una consecuencia fundamental de la economía social. Pagamos lo justo y vendemos por lo justo, porque se produce con justicia. ¡Sigue avanzando!" },
+		"excedentes": { "label": "Excedentes", "forward": "Aquí no hay ganancias. El resultado del ejercicio económico nos arroja unos <strong class='highlight-success'>excedentes</strong> que serán reinvertidos en el quehacer de nuestra empresa, en beneficio de todos los asociados." },
+		"redistribucion": { "label": "Redistribución", "forward": "Así, el camino de la cooperación nos ha traído a la <strong class='highlight-success'>redistribución</strong>; es decir, a una repartición más equitativa de la riqueza." },
+		"beneficios": { "label": "Beneficios", "forward": "Y por haber llegado a este punto del navegar solidario, ahora tienes los <strong class='highlight-success'>beneficios</strong> que son propios de la economía solidaria. Y esto, gracias a los aportes sociales que tú y otros cooperadores han puesto en este sueño colectivo." },
+		"sostenibilidad": { "label": "Sostenibilidad", "forward": "¡Muy bien! Cada paso dado hasta ahora es una suma para la <strong class='highlight-success'>sostenibilidad</strong>. Cuando cooperamos, todos nos beneficiamos y hacemos posible que este proyecto siga en pie." },
+		"bien_comun": { "label": "Bien común", "forward": "Nos genera satisfacción el <strong class='highlight-success'>bien común</strong>, el nuestro, el de toda la ciudadanía, el de cada persona que hace parte de este proyecto, pero también de la comunidad. ¡Juntos es mejor y rinde más!" },
+		"bienvivir": { "label": "Bienvivir", "forward": "¡<strong class='highlight-success'>Felicitaciones</strong>, navegante! Has llegado al faro, te invitamos a ver desde aquí todo lo que se puede generar con una economía sin ánimo de lucro, una economía para todos" },
+		"desigualdad": { "label": "Desigualdad", "forward": "Por definir" },
+		"crecimiento_economico": { "label": "Crecimiento económico", "forward": "Por definir" },
+		"ganancia": { "label": "Ganancia", "forward": "Por definir" },
+		"financiacion": { "label": "Financiación", "forward": "Por definir" },
+		"progreso": { "label": "Progreso", "forward": "Por definir" },
+		"acumulacion": { "label": "Acumulación", "forward": "Por definir" },
+		"apropiacion": { "label": "Apropiación", "forward": "Por definir" },
+		"recursos_limitados": { "label": "Recursos limitados", "forward": "Por definir" },
+		"tecnologia": { "label": "Tecnología", "forward": "Por definir" },
+		"habilidades": { "label": "Habilidades", "forward": "Por definir" },
+		"economia_de_mercado": { "label": "Economía de mercado", "forward": "Por definir" },
+		"factor_c": { "label": "Factor C", "forward": "Por definir" },
+		"medios_materiales": { "label": "Medios materiales", "forward": "Por definir" },
+		"gobierno": { "label": "Gobierno", "forward": "Por definir" },
+		"propiedad_privada": { "label": "Propiedad privada", "forward": "Por definir" },
+		"capital": { "label": "Capital", "forward": "Por definir" },
+		"pib": { "label": "PIB", "forward": "Por definir" },
+		"gestion": { "label": "Gestión", "forward": "Por definir" },
+		"competitividad": { "label": "Competitividad", "forward": "Por definir" },
+		"wrong_step": "¡<strong class='highlight-error'>Vuelve a intentarlo</strong>!. La economía solidaria suele tener obstáculos que impone el mundo del capital, pero con un poco de esfuerzo es posible avanzar"
+	},	
+	"matrices": [{
+			"board": [
+				["desigualdad", "bienvivir", "crecimiento_economico", "ganancia", "financiacion"],
+				["sostenibilidad", "bien_comun", "comercio_justo", "progreso", "acumulacion"],
+				["beneficios", "excedentes", "apropiacion", "economia_social", "recursos_limitados"],
+				["redistribucion", "tecnologia", "habilidades", "cooperacion", "economia_de_mercado"],
+				["factor_c", "medios_materiales", "gobierno", "propiedad_privada", "propiedad_colectiva"],
+				["capital", "pib", "gestion", "aportes_sociales", "competitividad"]
+			],
+			"path": ["D6", "E5", "D4", "D3", "C2", "B3", "A4", "A3", "A2", "B2", "B1"]
+		}
+	]
+}

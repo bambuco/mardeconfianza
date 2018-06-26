@@ -1,3 +1,11 @@
 page-home {
-
+	.scroll-content {
+		display: flex;
+		align-items: center;
+	}
+	.welcome {
+		&.note {
+			//padding: 15px 35px;
+		}
+	}
 }

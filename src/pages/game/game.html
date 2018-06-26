@@ -1,0 +1,30 @@
+<ion-content custom-padding no-bounce portrait>
+	<ion-grid class="header-caption">
+		<ion-row>
+			<ion-col *ngIf="message" col-md-10 offset-md-1>
+				<div class="note" text-center [innerHTML]="message"></div>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+	<div class="matrix" padding *ngIf="ready">
+		<div class="matrix-r" *ngFor="let row of puzzle.board; let i=index" [style.height.%]="100/(puzzle.rows+1)">
+			<div class="matrix-c tile block-{{tile.stopper}}" *ngFor="let tile of row; let j=index" [style.width.%]="100/puzzle.columns" (click)="reveal(tile)"
+				[class.current]="tile.current" [class.wrong-step]="tile.correct===false" [class.walked]="tile.walked">
+				<span text-center>{{tile.label}}</span>
+			</div>
+		</div>
+		<div class="matrix-r" [style.height.%]="100/(puzzle.rows+1)" [style.visibility]="puzzle.currentStep==0?'visible':'hidden'">
+			<div class="matrix-c" *repeat="puzzle.columns; let j=index" [style.width.%]="100/puzzle.columns" text-center>
+				<div class="tile-entry">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+</ion-content>
+
+<ion-footer>
+	<ion-row align-items-center justify-content-center>
+		<ion-col col-4 col-md-3 text-center>
+			<button class="img-button btn-restart disable-hover" (click)="restart()">&nbsp;</button>
+		</ion-col>
+	</ion-row>
+</ion-footer>

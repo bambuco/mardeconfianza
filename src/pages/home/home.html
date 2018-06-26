@@ -1,14 +1,17 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding portrait>
+	<ion-grid no-padding>
+		<ion-row align-items-center justify-content-center>
+			<ion-col col-md-9 col-lg-9 col-xl-6>
+				<div class="note welcome" [innerHTML]='"WELCOME_TEXT" | translate'>
+				</div>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
 </ion-content>
+<ion-footer>
+	<ion-row align-items-center justify-content-center>
+		<ion-col col-4 col-md-3 text-center>
+			<button class="img-button btn-play disable-hover" (click)="play()">&nbsp;</button>
+		</ion-col>
+	</ion-row>
+</ion-footer>
