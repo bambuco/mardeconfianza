@@ -17,8 +17,10 @@ export class GamePage {
 	ready: boolean;
   message: string;
 
+
 	private setup: any;
 	private loadingText: string;
+  private wrongStepText: string;
 
   constructor(
   	public navCtrl: NavController,
@@ -33,6 +35,7 @@ export class GamePage {
   		this.setup = setup;
   		translatorObs.subscribe(translations => {
   			this.loadingText = translations.LOADING_TEXT;
+        this.wrongStepText = this.setup.strings['wrong_step'];
 	  		this.loadPuzzle(true);
   		});
   	});
@@ -62,7 +65,7 @@ export class GamePage {
     }
     catch (err) {
       this.translator.get(err).subscribe(value => {
-        console.log(value);
+        this.message = value;
       });
     }  	
     this.ready = true;
@@ -75,6 +78,6 @@ export class GamePage {
     if (step == null) {
       return;
     }
-    this.message = step ? tile.forward : this.setup.strings['wrong_step'];
+    this.message = step ? tile.forward : ['<strong class="highlight-error">', tile.label, '</strong> - ', this.wrongStepText].join('');
   }
 }

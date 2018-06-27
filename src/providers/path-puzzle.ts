@@ -6,6 +6,7 @@ import { PathPuzzle } from './classes/path-puzzle';
 export class PathPuzzleProvider {
   
   private setup: any;
+  private matrices: any[];
 
   constructor() {
   }
@@ -43,7 +44,9 @@ export class PathPuzzleProvider {
     }
 
     //ToDo: Randomly choose a matrix if more than one
-    return this.setup.matrices[0];
-
+    if (!this.matrices || !this.matrices.length) {
+      this.matrices = this.setup.matrices.slice(0);
+    }
+    return this.matrices.splice(Math.round((this.matrices.length - 1) * Math.random()), 1)[0];
   }
 }

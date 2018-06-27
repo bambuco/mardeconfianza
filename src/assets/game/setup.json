@@ -2,21 +2,21 @@
 	"strings": {
 		"aportes_sociales": { "label": "Aportes Sociales", "forward": "Gracias por iniciar este juego con tus <strong class='highlight-success'>aportes sociales</strong>. Descubrirás que juntos es mejor y rinde más. Sigue por el camino de la cooperación." },
 		"propiedad_colectiva": { "label": "Propiedad colectiva", "forward": "¡Muy bien! Gracias a tus aportes sociales ahora participas de esta <strong class='highlight-success'>propiedad colectiva</strong>; es decir, que es de todos y todas. Sigue navegando, en el faro nos esperan." },
-		"cooperacion": { "label": "Cooperación", "forward": "Y como esta isla también es tuya, aquí venimos a <strong class='highlight-success'>cooperar</strong>; es decir, a trabajar colectivamente. Recuerda… ¡juntos es mejor y rinde más! ¿Y ahora para dónde vas?" },
+		"cooperacion": { "label": "Coopera&shy;ción", "forward": "Y como esta isla también es tuya, aquí venimos a <strong class='highlight-success'>cooperar</strong>; es decir, a trabajar colectivamente. Recuerda… ¡juntos es mejor y rinde más! ¿Y ahora para dónde vas?" },
 		"economia_social": { "label": "Economía social", "forward": "¡Llegaste a la <strong class='highlight-success'>economía social</strong>! Esta es la economía que busca el máximo beneficio para todos y para todas, tanto de quienes hacemos parte de esta propiedad colectiva (gracias a los aportes sociales) como para el resto de la comunidad. ¿Hacia dónde quieres ir?" },
 		"comercio_justo": { "label": "Comercio justo", "forward": "El <strong class='highlight-success'>comercio justo</strong> es una consecuencia fundamental de la economía social. Pagamos lo justo y vendemos por lo justo, porque se produce con justicia. ¡Sigue avanzando!" },
 		"excedentes": { "label": "Excedentes", "forward": "Aquí no hay ganancias. El resultado del ejercicio económico nos arroja unos <strong class='highlight-success'>excedentes</strong> que serán reinvertidos en el quehacer de nuestra empresa, en beneficio de todos los asociados." },
-		"redistribucion": { "label": "Redistribución", "forward": "Así, el camino de la cooperación nos ha traído a la <strong class='highlight-success'>redistribución</strong>; es decir, a una repartición más equitativa de la riqueza." },
+		"redistribucion": { "label": "Redistribu&shy;ción", "forward": "Así, el camino de la cooperación nos ha traído a la <strong class='highlight-success'>redistribución</strong>; es decir, a una repartición más equitativa de la riqueza." },
 		"beneficios": { "label": "Beneficios", "forward": "Y por haber llegado a este punto del navegar solidario, ahora tienes los <strong class='highlight-success'>beneficios</strong> que son propios de la economía solidaria. Y esto, gracias a los aportes sociales que tú y otros cooperadores han puesto en este sueño colectivo." },
-		"sostenibilidad": { "label": "Sostenibilidad", "forward": "¡Muy bien! Cada paso dado hasta ahora es una suma para la <strong class='highlight-success'>sostenibilidad</strong>. Cuando cooperamos, todos nos beneficiamos y hacemos posible que este proyecto siga en pie." },
+		"sostenibilidad": { "label": "Sostenibi&shy;lidad", "forward": "¡Muy bien! Cada paso dado hasta ahora es una suma para la <strong class='highlight-success'>sostenibilidad</strong>. Cuando cooperamos, todos nos beneficiamos y hacemos posible que este proyecto siga en pie." },
 		"bien_comun": { "label": "Bien común", "forward": "Nos genera satisfacción el <strong class='highlight-success'>bien común</strong>, el nuestro, el de toda la ciudadanía, el de cada persona que hace parte de este proyecto, pero también de la comunidad. ¡Juntos es mejor y rinde más!" },
 		"bienvivir": { "label": "Bienvivir", "forward": "¡<strong class='highlight-success'>Felicitaciones</strong>, navegante! Has llegado al faro, te invitamos a ver desde aquí todo lo que se puede generar con una economía sin ánimo de lucro, una economía para todos" },
-		"desigualdad": { "label": "Desigualdad", "forward": "Por definir" },
-		"crecimiento_economico": { "label": "Crecimiento económico", "forward": "Por definir" },
+		"desigualdad": { "label": "Desigual&shy;dad", "forward": "Por definir" },
+		"crecimiento_economico": { "label": "Crecimien&shy;to econó&shy;mi&shy;co", "forward": "Por definir" },
 		"ganancia": { "label": "Ganancia", "forward": "Por definir" },
-		"financiacion": { "label": "Financiación", "forward": "Por definir" },
+		"financiacion": { "label": "Financia&shy;ción", "forward": "Por definir" },
 		"progreso": { "label": "Progreso", "forward": "Por definir" },
-		"acumulacion": { "label": "Acumulación", "forward": "Por definir" },
+		"acumulacion": { "label": "Acumula&shy;ción", "forward": "Por definir" },
 		"apropiacion": { "label": "Apropiación", "forward": "Por definir" },
 		"recursos_limitados": { "label": "Recursos limitados", "forward": "Por definir" },
 		"tecnologia": { "label": "Tecnología", "forward": "Por definir" },
@@ -29,19 +29,50 @@
 		"capital": { "label": "Capital", "forward": "Por definir" },
 		"pib": { "label": "PIB", "forward": "Por definir" },
 		"gestion": { "label": "Gestión", "forward": "Por definir" },
-		"competitividad": { "label": "Competitividad", "forward": "Por definir" },
+		"competitividad": { "label": "Competiti&shy;vidad", "forward": "Por definir" },
 		"wrong_step": "¡<strong class='highlight-error'>Vuelve a intentarlo</strong>!. La economía solidaria suele tener obstáculos que impone el mundo del capital, pero con un poco de esfuerzo es posible avanzar"
 	},	
 	"matrices": [{
 			"board": [
-				["desigualdad", "bienvivir", "crecimiento_economico", "ganancia", "financiacion"],
-				["sostenibilidad", "bien_comun", "comercio_justo", "progreso", "acumulacion"],
-				["beneficios", "excedentes", "apropiacion", "economia_social", "recursos_limitados"],
-				["redistribucion", "tecnologia", "habilidades", "cooperacion", "economia_de_mercado"],
-				["factor_c", "medios_materiales", "gobierno", "propiedad_privada", "propiedad_colectiva"],
-				["capital", "pib", "gestion", "aportes_sociales", "competitividad"]
+				["desigualdad", "financiacion", "bienvivir", "crecimiento_economico", "ganancia"],
+				["gobierno", "progreso", "bien_comun", "sostenibilidad", "beneficios"],
+				["recursos_limitados", "medios_materiales", "apropiacion", "economia_de_mercado", "redistribucion"],
+				["acumulacion", "tecnologia", "habilidades", "comercio_justo", "excedentes"],
+				["factor_c", "propiedad_colectiva", "cooperacion", "economia_social", "propiedad_privada"],
+				["capital", "aportes_sociales", "gestion", "pib", "competitividad"]
 			],
-			"path": ["D6", "E5", "D4", "D3", "C2", "B3", "A4", "A3", "A2", "B2", "B1"]
+			"path": ["B6", "B5", "C5", "D5", "D4", "E4", "E3", "E2", "D2", "C2", "C1"]
+		}, {
+			"board": [
+				["desigualdad", "financiacion", "crecimiento_economico", "ganancia", "bienvivir"],
+				["gobierno", "progreso", "economia_de_mercado", "apropiacion", "bien_comun"],
+				["recursos_limitados", "excedentes", "redistribucion", "beneficios", "sostenibilidad"],
+				["acumulacion", "comercio_justo", "tecnologia", "habilidades", "medios_materiales"],
+				["factor_c", "economia_social", "cooperacion", "propiedad_colectiva", "propiedad_privada"],
+				["capital", "gestion", "pib", "aportes_sociales", "competitividad"]
+			],
+			"path": ["D6", "D5", "C5", "B5", "B4", "B3", "C3", "D3", "E3", "E2", "E1"]
+		}, {
+			"board": [
+				["desigualdad", "bienvivir", "financiacion", "crecimiento_economico", "ganancia"],
+				["gobierno", "bien_comun", "progreso", "economia_de_mercado", "apropiacion"],
+				["recursos_limitados", "redistribucion", "sostenibilidad", "beneficios", "habilidades"],
+				["acumulacion", "factor_c", "tecnologia", "excedentes", "medios_materiales"],
+				["propiedad_colectiva", "cooperacion", "economia_social", "comercio_justo", "propiedad_privada"],
+				["aportes_sociales", "capital", "gestion", "pib", "competitividad"]
+			],
+			"path": ["A6", "A5", "B5", "C5", "D5", "D4", "D3", "C3", "B3", "B2", "B1"]
+		}, {
+			"board": [
+				["desigualdad", "financiacion", "crecimiento_economico", "ganancia", "bienvivir"],
+				["gobierno", "progreso", "economia_de_mercado", "apropiacion", "bien_comun"],
+				["comercio_justo", "excedentes", "redistribucion", "sostenibilidad", "beneficios"],
+				["economia_social", "factor_c", "habilidades", "tecnologia", "medios_materiales"],
+				["cooperacion", "propiedad_colectiva", "acumulacion", "recursos_limitados", "propiedad_privada"],
+				["capital", "aportes_sociales", "gestion", "pib", "competitividad"]
+			],
+			"path": ["B6", "B5", "A5", "A4", "A3", "B3", "C3", "D3", "E3", "E2", "E1"]
 		}
+
 	]
 }

@@ -10,7 +10,7 @@
 		<div class="matrix-r" *ngFor="let row of puzzle.board; let i=index" [style.height.%]="100/(puzzle.rows+1)">
 			<div class="matrix-c tile block-{{tile.stopper}}" *ngFor="let tile of row; let j=index" [style.width.%]="100/puzzle.columns" (click)="reveal(tile)"
 				[class.current]="tile.current" [class.wrong-step]="tile.correct===false" [class.walked]="tile.walked">
-				<span text-center>{{tile.label}}</span>
+				<span text-center [innerHTML]="tile.label"></span>
 			</div>
 		</div>
 		<div class="matrix-r" [style.height.%]="100/(puzzle.rows+1)" [style.visibility]="puzzle.currentStep==0?'visible':'hidden'">
