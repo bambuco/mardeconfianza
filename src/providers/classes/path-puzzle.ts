@@ -1,5 +1,5 @@
 const MAX_LENGTH = 26;
-const STOPPERS = ['iceberg', 'tornado'];
+const STOPPERS = ['iceberg', 'tornado', 'octopus'];
 
 export function rand(max:number, min:number = 0) {
   min = Math.ceil(min);

@@ -18,48 +18,48 @@
 		"progreso": { "label": "Progreso", "forward": "Por definir" },
 		"acumulacion": { "label": "Acumula&shy;ción", "forward": "Por definir" },
 		"apropiacion": { "label": "Apropiación", "forward": "Por definir" },
-		"recursos_limitados": { "label": "Recursos limitados", "forward": "Por definir" },
-		"tecnologia": { "label": "Tecnología", "forward": "Por definir" },
-		"habilidades": { "label": "Habilidades", "forward": "Por definir" },
+		"dinero": { "label": "Dinero", "forward": "Por definir" },
+		"economia_naranja": { "label": "Economía naranja", "forward": "Por definir" },
+		"privatizacion": { "label": "Privatiza&shy;ción", "forward": "Por definir" },
 		"economia_de_mercado": { "label": "Economía de mercado", "forward": "Por definir" },
-		"factor_c": { "label": "Factor C", "forward": "Por definir" },
-		"medios_materiales": { "label": "Medios materiales", "forward": "Por definir" },
+		"enriquecimiento": { "label": "Enriqueci&shy;miento", "forward": "Por definir" },
+		"empresa": { "label": "Empresa", "forward": "Por definir" },
 		"gobierno": { "label": "Gobierno", "forward": "Por definir" },
 		"propiedad_privada": { "label": "Propiedad privada", "forward": "Por definir" },
 		"capital": { "label": "Capital", "forward": "Por definir" },
 		"pib": { "label": "PIB", "forward": "Por definir" },
-		"gestion": { "label": "Gestión", "forward": "Por definir" },
+		"negocio": { "label": "Negocio", "forward": "Por definir" },
 		"competitividad": { "label": "Competiti&shy;vidad", "forward": "Por definir" },
-		"wrong_step": "¡<strong class='highlight-error'>Vuelve a intentarlo</strong>!. La economía solidaria suele tener obstáculos que impone el mundo del capital, pero con un poco de esfuerzo es posible avanzar"
+		"wrong_step": "<strong class='highlight-error'>Por aquí no es... devuélvete, activa tu memoria y volvamos a empezar.</strong>"
 	},	
 	"matrices": [{
 			"board": [
 				["desigualdad", "financiacion", "bienvivir", "crecimiento_economico", "ganancia"],
 				["gobierno", "progreso", "bien_comun", "sostenibilidad", "beneficios"],
-				["recursos_limitados", "medios_materiales", "apropiacion", "economia_de_mercado", "redistribucion"],
-				["acumulacion", "tecnologia", "habilidades", "comercio_justo", "excedentes"],
-				["factor_c", "propiedad_colectiva", "cooperacion", "economia_social", "propiedad_privada"],
-				["capital", "aportes_sociales", "gestion", "pib", "competitividad"]
+				["dinero", "empresa", "apropiacion", "economia_de_mercado", "redistribucion"],
+				["acumulacion", "economia_naranja", "privatizacion", "comercio_justo", "excedentes"],
+				["enriquecimiento", "propiedad_colectiva", "cooperacion", "economia_social", "propiedad_privada"],
+				["capital", "aportes_sociales", "negocio", "pib", "competitividad"]
 			],
 			"path": ["B6", "B5", "C5", "D5", "D4", "E4", "E3", "E2", "D2", "C2", "C1"]
 		}, {
 			"board": [
 				["desigualdad", "financiacion", "crecimiento_economico", "ganancia", "bienvivir"],
 				["gobierno", "progreso", "economia_de_mercado", "apropiacion", "bien_comun"],
-				["recursos_limitados", "excedentes", "redistribucion", "beneficios", "sostenibilidad"],
-				["acumulacion", "comercio_justo", "tecnologia", "habilidades", "medios_materiales"],
-				["factor_c", "economia_social", "cooperacion", "propiedad_colectiva", "propiedad_privada"],
-				["capital", "gestion", "pib", "aportes_sociales", "competitividad"]
+				["dinero", "excedentes", "redistribucion", "beneficios", "sostenibilidad"],
+				["acumulacion", "comercio_justo", "economia_naranja", "privatizacion", "empresa"],
+				["enriquecimiento", "economia_social", "cooperacion", "propiedad_colectiva", "propiedad_privada"],
+				["capital", "negocio", "pib", "aportes_sociales", "competitividad"]
 			],
 			"path": ["D6", "D5", "C5", "B5", "B4", "B3", "C3", "D3", "E3", "E2", "E1"]
 		}, {
 			"board": [
 				["desigualdad", "bienvivir", "financiacion", "crecimiento_economico", "ganancia"],
 				["gobierno", "bien_comun", "progreso", "economia_de_mercado", "apropiacion"],
-				["recursos_limitados", "redistribucion", "sostenibilidad", "beneficios", "habilidades"],
-				["acumulacion", "factor_c", "tecnologia", "excedentes", "medios_materiales"],
+				["dinero", "redistribucion", "sostenibilidad", "beneficios", "privatizacion"],
+				["acumulacion", "enriquecimiento", "economia_naranja", "excedentes", "empresa"],
 				["propiedad_colectiva", "cooperacion", "economia_social", "comercio_justo", "propiedad_privada"],
-				["aportes_sociales", "capital", "gestion", "pib", "competitividad"]
+				["aportes_sociales", "capital", "negocio", "pib", "competitividad"]
 			],
 			"path": ["A6", "A5", "B5", "C5", "D5", "D4", "D3", "C3", "B3", "B2", "B1"]
 		}, {
@@ -67,9 +67,9 @@
 				["desigualdad", "financiacion", "crecimiento_economico", "ganancia", "bienvivir"],
 				["gobierno", "progreso", "economia_de_mercado", "apropiacion", "bien_comun"],
 				["comercio_justo", "excedentes", "redistribucion", "sostenibilidad", "beneficios"],
-				["economia_social", "factor_c", "habilidades", "tecnologia", "medios_materiales"],
-				["cooperacion", "propiedad_colectiva", "acumulacion", "recursos_limitados", "propiedad_privada"],
-				["capital", "aportes_sociales", "gestion", "pib", "competitividad"]
+				["economia_social", "enriquecimiento", "privatizacion", "economia_naranja", "empresa"],
+				["cooperacion", "propiedad_colectiva", "acumulacion", "dinero", "propiedad_privada"],
+				["capital", "aportes_sociales", "negocio", "pib", "competitividad"]
 			],
 			"path": ["B6", "B5", "A5", "A4", "A3", "B3", "C3", "D3", "E3", "E2", "E1"]
 		}

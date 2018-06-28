@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar>
+	  <ion-toolbar color="primary">
+	    <ion-title>{{'APP_SETTINGS'|translate}}</ion-title>
+	    <ion-buttons start>
+	      <button ion-button (click)="dismiss()">
+	      <span ion-text color="primary" showWhen="ios">{{'APP_BACK_TEXT'|translate}}</span>
+	      <ion-icon name="md-close" showWhen="android,windows,core"></ion-icon>
+	      </button>
+	    </ion-buttons>
+    </ion-toolbar>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-list-header>
+      <p [innerHTML]="'GAME_OPTIONS'|translate"></p>
+    </ion-list-header>
+    <ion-item (click)="onChange('sounds')">
+      <ion-label>{{'SOUND_ENABLED'|translate}}</ion-label>
+      <ion-icon [name]="(soundsEnabled?'volume-up':'volume-off')" [color]="(soundsEnabled?'primary':'disabled')" item-end></ion-icon>
+    </ion-item>
+    <ion-item (click)="onChange('help')">
+      <ion-label>{{'HELP_ENABLED'|translate}}</ion-label>
+      <ion-icon name="help-circle" [color]="(helpEnabled?'primary':'disabled')" item-end></ion-icon>
+    </ion-item>
+    <ion-list-header>
+     {{'APP_INFO'|translate}}
+    </ion-list-header>
+    <ion-item>{{'APP_VERSION'|translate}}
+    	<ion-note class="version-text" item-end>{{version}}</ion-note>
+    </ion-item>
+    <ion-item (click)="viewCredits()">
+      <ion-label>{{'APP_CREDITS'|translate}}</ion-label>    	
+      <ion-icon name="eye" item-end></ion-icon>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
+

@@ -1,6 +1,11 @@
 page-game {
 	
-	ion-content
+	.settings-button {
+		position: absolute;
+		right: 0;
+		color: #19a719;
+		z-index: 100;
+	}
 
 	.playZone {
 		position: relative;
@@ -8,6 +13,18 @@ page-game {
 		&[custom-padding] {
 			padding: 8px;
 		}
+	}
+
+	.instructions-overlay {
+	  position: fixed;
+	  width: 100%;
+	  height: 100%;
+	  background: rgba(0,0,0,0.3);
+	  z-index: 20;
+	  top: 0;
+	  left: 0;
+	  display: flex;
+	  align-items: center;
 	}
 
 	.header-caption {
@@ -70,7 +87,11 @@ page-game {
 						border-left: dashed 1px #8A755B;
 					}
 
-					span { max-width: 100%; max-height: 100% }
+					span { 
+						max-width: 100%;
+						max-height: 100%;
+						hyphens: auto;
+					}
 				
 					&.walked {
 						background-image: none;
@@ -93,6 +114,10 @@ page-game {
 							
 							&.block-tornado {
 								background-image: url('../assets/game/img/shared/block_tornado.png');
+							}
+
+							&.block-octopus {
+								background-image: url('../assets/game/img/shared/block_octopus.png');
 							}
 
 							span {

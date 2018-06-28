@@ -1,4 +1,7 @@
 <ion-content custom-padding no-bounce portrait>
+	<button ion-button icon-only clear class="settings-button" (click)="openConfig()">
+		<ion-icon name="settings"></ion-icon>
+	</button>
 	<ion-grid class="header-caption">
 		<ion-row>
 			<ion-col *ngIf="message" col-md-10 offset-md-1>
@@ -28,3 +31,10 @@
 		</ion-col>
 	</ion-row>
 </ion-footer>
+
+<div class="instructions-overlay" padding [hidden]="hideInstructions" portrait>
+	<div text-center col-md-10 offset-md-1>
+		<div class="note" text-center [innerHTML]="instructions"></div>
+		<button class="img-button btn-play disable-hover" (click)="start()">&nbsp;</button>
+	</div>
+</div>

@@ -1,0 +1,65 @@
+<!--
+  Generated template for the CreditsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+	  <ion-toolbar color="primary">
+	    <ion-title>{{'APP_CREDITS'|translate}}</ion-title>
+	    <ion-buttons start>
+	      <button ion-button (click)="dismiss()">
+	      <span ion-text color="primary" showWhen="ios">{{'APP_BACK_TEXT'|translate}}</span>
+	      <ion-icon name="md-close" showWhen="android,windows,core"></ion-icon>
+	      </button>
+	    </ion-buttons>
+	  </ion-toolbar>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<ion-list>
+	  <ion-item-group>
+	    <ion-item text-wrap text-center>
+	      <p [innerHTML]="'APP_DESCRIPTION'|translate"></p>
+	    </ion-item>
+	  </ion-item-group>
+	  <ion-item-group>
+	    <ion-item-divider>{{'GRAPHIC_DESIGN'|translate}}</ion-item-divider>
+	    <ion-item>Juliana Tobón</ion-item>
+	  </ion-item-group>
+	  <ion-item-group>
+	    <ion-item-divider>{{'DEVELOPMENT'|translate}}</ion-item-divider>
+	    <ion-item>Jesús María Otero</ion-item>
+	  </ion-item-group>
+	  <ion-item-group>
+	    <ion-item-divider>{{'PRODUCTION_COORDINATION'|translate}}</ion-item-divider>
+	    <ion-item>David Herney Bernal</ion-item>
+	  </ion-item-group>
+	  <ion-item-group>
+	    <ion-item-divider>{{'EXECUTIVE_PRODUCTION'|translate}}</ion-item-divider>
+	    <ion-item>Jenny Giraldo Garcia</ion-item>
+	  </ion-item-group>
+	  <ion-item-group>
+	    <ion-item-divider>{{'OTHERS'|translate}}</ion-item-divider>
+	    <ion-item text-wrap>{{'OTHER_CREDITS'|translate}}</ion-item>
+	  </ion-item-group>
+	  <ion-item-group>
+	    <ion-item-divider>{{'LICENSE'|translate}}</ion-item-divider>
+	    <ion-item text-wrap>
+	  		<p [innerHTML]="'LICENSE_INFO'|translate"></p>
+	    </ion-item>
+	  </ion-item-group>
+	  <ion-item-group>
+	    <ion-item-divider>{{'PRODUCTION'|translate}}</ion-item-divider>
+	    <ion-item>Confiar Cooperativa Financiera</ion-item>
+	    <ion-item text-wrap text-center>
+	      BambuCo S.A.S<br/>Medellín - Colombia<br/>2018
+	    </ion-item>
+	  </ion-item-group>
+	</ion-list>
+</ion-content>
