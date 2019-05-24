@@ -1,5 +1,5 @@
 const MAX_LENGTH = 26;
-const STOPPERS = ['iceberg', 'tornado'];
+const STOPPERS = ['iceberg', 'tornado', 'octopus'];
 
 export function rand(max:number, min:number = 0) {
   min = Math.ceil(min);
@@ -94,7 +94,7 @@ export class PathPuzzle {
 		else {
 			const deltaR = Math.abs(this.lastTile.row - row);
 			const deltaC = Math.abs(this.lastTile.col - column);
-			if (deltaR > 1 || deltaC > 1) {
+			if (deltaR > 1 || deltaC > 1 || (deltaR != 0 && deltaC != 0)) {
 				return;
 			}
 		}

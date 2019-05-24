@@ -1,6 +1,15 @@
 page-game {
 	
-	ion-content
+  .scroll-content {
+    overflow: hidden;
+  }
+  
+	.settings-button {
+		position: absolute;
+		right: 0;
+		color: #19a719;
+		z-index: 100;
+	}
 
 	.playZone {
 		position: relative;
@@ -10,6 +19,24 @@ page-game {
 		}
 	}
 
+	.instructions-overlay {
+	  position: fixed;
+	  width: 100%;
+	  height: 100%;
+	  background: rgba(0,0,0,0.5);
+	  z-index: 20;
+	  top: 0;
+	  left: 0;
+	  display: flex;
+	  align-items: center;
+
+	  img {
+	  	display: block;
+	  	width: 25%;
+	  	margin: 0 auto;
+	  }
+	}
+
 	.header-caption {
 		position: absolute;
 		right: 0;
@@ -17,8 +44,9 @@ page-game {
 		top: 2.5%;
 		height: 20%;
 		width: 100%;
+		z-index: 10;
 
-		.note {
+		.notification {
 			opacity: 0.86;
 		}
 
@@ -29,6 +57,11 @@ page-game {
 			color: #ca1212;
 		}
 	}
+	
+	.invisible {
+		visibility: hidden;
+	}
+
 	.matrix {
 		position: absolute;
 		right: 0;
@@ -65,12 +98,17 @@ page-game {
 					justify-content: center;
 					color: #565151;
 					font-weight: bold;
+					cursor: pointer;
 
 					&:first-child {
 						border-left: dashed 1px #8A755B;
 					}
 
-					span { max-width: 100%; max-height: 100% }
+					span { 
+						max-width: 100%;
+						max-height: 100%;
+						hyphens: auto;
+					}
 				
 					&.walked {
 						background-image: none;
@@ -93,6 +131,10 @@ page-game {
 							
 							&.block-tornado {
 								background-image: url('../assets/game/img/shared/block_tornado.png');
+							}
+
+							&.block-octopus {
+								background-image: url('../assets/game/img/shared/block_octopus.png');
 							}
 
 							span {

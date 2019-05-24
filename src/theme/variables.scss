@@ -22,7 +22,12 @@ $app-direction: ltr;
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
 
-
+$background-color: #ddf0ef;
+$item-md-divider-background: $background-color;
+$item-ios-divider-background: $background-color;
+$list-border-color: #19a719; //#21c121;
+$list-md-border-color: $list-border-color;
+$toolbar-background: #19a719;
 
 
 // Named Color Variables
@@ -34,12 +39,14 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
+  primary:    #19a719, //#488aff,
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  disabled:   #c5c5c5
 );
+
 
 
 // App iOS Variables
