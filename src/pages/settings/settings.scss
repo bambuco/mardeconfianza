@@ -3,7 +3,13 @@ page-settings {
 		background-image: none;
 	}
 
-	.version-text {
-		padding-right: 0;		
+	.list-md, .list-ios {
+		.item-block .item-inner {
+			border-bottom: none;
+		}
+
+		ion-icon {
+			cursor: pointer;
+		}
 	}
 }

@@ -22,7 +22,12 @@ $app-direction: ltr;
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
 
-
+$background-color: #ddf0ef;
+$item-md-divider-background: $background-color;
+$item-ios-divider-background: $background-color;
+$list-border-color: #19a719; //#21c121;
+$list-md-border-color: $list-border-color;
+$toolbar-background: #19a719;
 
 
 // Named Color Variables
@@ -41,6 +46,7 @@ $colors: (
   dark:       #222,
   disabled:   #c5c5c5
 );
+
 
 
 // App iOS Variables

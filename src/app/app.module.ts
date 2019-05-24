@@ -9,6 +9,7 @@ import { AndroidFullScreen } from '@ionic-native/android-full-screen';
 import { MobileAccessibility } from '@ionic-native/mobile-accessibility';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { DirectivesModule } from '../directives/directives.module';
 
 //import { DirectivesModule } from '../directives/directives.module';
 import { GameSetupProvider, PathPuzzleProvider, AudioPlayerProvider, AppConfigProvider } from '../providers/';
@@ -30,7 +31,7 @@ export function createTranslateLoader(http: HttpClient) {
   imports: [
     BrowserModule,
     HttpClientModule,
-    //DirectivesModule,
+    DirectivesModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

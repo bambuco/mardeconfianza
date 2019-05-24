@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="co.bambuco.mardeconfianza" version="0.0.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="co.bambuco.mardeconfianza" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Mar de confianza</name>
     <description>.</description>
     <author email="info@bambuco.co" href="http://bambuco.co/">BambuCo S.A.S</author>
