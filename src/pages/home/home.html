@@ -1,7 +1,7 @@
 <ion-content padding portrait>
 	<ion-grid no-padding>
 		<ion-row align-items-center justify-content-center>
-			<ion-col col-md-9 col-lg-9 col-xl-6>
+			<ion-col col-md-11 col-lg-11 col-xl-11>
 				<div class="notification welcome" [innerHTML]='"WELCOME_TEXT" | translate'>
 				</div>
 			</ion-col>
@@ -10,8 +10,11 @@
 </ion-content>
 <ion-footer>
 	<ion-row align-items-center justify-content-center>
-		<ion-col col-4 col-md-3 text-center>
-			<button class="img-button btn-play disable-hover" (click)="play()">&nbsp;</button>
+		<ion-col text-right >
+			<button class="img-button btn-play-sc disable-hover" (click)="play('compe')">&nbsp;</button>
+		</ion-col>
+		<ion-col text-left>
+			<button class="img-button btn-play-st disable-hover" (click)="play('trust')">&nbsp;</button>
 		</ion-col>
 	</ion-row>
 </ion-footer>

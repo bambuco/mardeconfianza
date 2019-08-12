@@ -1,7 +1,8 @@
 {
-  "WELCOME_TEXT": "Te invitamos a recorrer estas playas de la economía solidaria.<br>La economía del capital te pondrá obstáculos, pero con tu conocimiento vas a superarlos.<br>La meta es llegar al FARO, desde donde podrás ver cómo es posible un mejor vivir para todos y todas.",
+  "WELCOME_TEXT": "<center>Bienvenido(a)</center><br/>Te invitamos a navegar por uno de estos mares de la economía, en ambos se presentan obstáculos, pero con tu saber vas a superarlos.<br/><br/>En ellos hay METAS distintas, en uno podrás llegar al PODIO, desde donde podrás visualizar el mundo con altos privilegios para muy pocos y en el otro la Meta es llegar al FARO, desde donde podrás ver cómo es posible un mejor vivir para todos y todas.<br/><br/><center>¡tú eliges!</center>",
   "LOADING_TEXT": "Cargando...",
-  "INSTRUCTIONS": "Da el primer paso y comienza la ruta de la economía solidaria.<br><strong>Instrucciones</strong><br>Navega por las casillas y ten en cuenta que el paso correcto siempre estará inmediatamente después (a la <strong>derecha</strong>, <strong>izquierda</strong>, <strong>arriba</strong> o <strong>abajo</strong>) así: <img src='assets/game/img/shared/instructions.png'/>Si das un paso equivocado, debes volver a comenzar. Nos vemos en el faro, desde donde podrás ver todas las ventajas de trabajar colectivamente.  ¿Cuál crees que debe ser el primer paso?",
+  "INSTRUCTIONS_TRUST": "Da el primer paso y comienza la ruta de la economía solidaria.<br><strong>Instrucciones</strong><br>Navega por las casillas y ten en cuenta que el paso correcto siempre estará inmediatamente después (a la <strong>derecha</strong>, <strong>izquierda</strong>, <strong>arriba</strong> o <strong>abajo</strong>) así: <img src='assets/game/img/shared/instructions.png'/>Si das un paso equivocado, debes volver a comenzar. Nos vemos en el faro, desde donde podrás ver todas las ventajas de trabajar colectivamente.  ¿Cuál crees que debe ser el primer paso?",
+  "INSTRUCTIONS_COMPE": "Da el primer paso y comienza la ruta de la economía de lucro.<br><strong>Instrucciones</strong><br>Navega por las casillas y ten en cuenta que el paso correcto siempre estará inmediatamente después (a la <strong>derecha</strong>, <strong>izquierda</strong>, <strong>arriba</strong> o <strong>abajo</strong>) así: <img src='assets/game/img/shared/instructions.png'/>Si das un paso equivocado, debes volver a comenzar. Nos vemos en el podio, desde donde podrás ver las exclusividades de trabajar competitivamente.  ¿Cuál crees que debe ser el primer paso?",
   "APP_DESCRIPTION": "Mar de confianza es un juego sobre economía solidaria y cooperativismo de Confiar Cooperativa Financiera, desarrollado por <a href='http://www.bambuco.co' target='_system'>Bambuco S.A.S.</a>",
   "APP_SETTINGS": "Configuración",
   "GAME_OPTIONS": "Opciones del juego",
@@ -20,3 +21,4 @@
   "OTHERS": "Otros",
   "OTHER_CREDITS": "Efectos de sonido tomados de https://www.zapsplat.com"
 }
+

@@ -7,12 +7,15 @@ export class PathPuzzleProvider {
   
   private setup: any;
   private matrices: any[];
+  private sea: string;
 
   constructor() {
   }
 
-  initialize(setup: any) {
+  initialize(setup: any, sea: string) {
     this.setup = setup;
+    this.sea = sea;
+    this.matrices = [];
   }
 
   createPuzzle(level: number) {
@@ -43,9 +46,12 @@ export class PathPuzzleProvider {
       throw "ERR_PUZZLE_MISSING_MATRICES";
     }
 
-    //ToDo: Randomly choose a matrix if more than one
     if (!this.matrices || !this.matrices.length) {
-      this.matrices = this.setup.matrices.slice(0);
+      this.matrices = this.setup.matrices.slice(0).filter(m => m.sea == this.sea);
+    }
+
+    if (!this.matrices || !this.matrices.length) {
+      throw "ERR_PUZZLE_MISSING_MATRICES";
     }
     return this.matrices.splice(Math.round((this.matrices.length - 1) * Math.random()), 1)[0];
   }

@@ -18,12 +18,14 @@ export class GamePage {
 	ready: boolean;
   message: string;
 
-
+  private sea: string;
+  private other_sea: string;
 	private setup: any;
 	private loadingText: string;
   private wrongStepText: string;
   private instructions: string;
   private hideInstructions: boolean = true;
+  private wrongStepTexts: string[];
 
   constructor(
   	public navCtrl: NavController,
@@ -36,13 +38,15 @@ export class GamePage {
     private appConfig: AppConfigProvider,
     gameSetup: GameSetupProvider
   ) {
-  	let translatorObs = translator.get(['LOADING_TEXT', 'INSTRUCTIONS']);
+  	let translatorObs = translator.get(['LOADING_TEXT', 'INSTRUCTIONS_TRUST', 'INSTRUCTIONS_COMPE']);
   	gameSetup.ready().subscribe((setup) => {
   		this.setup = setup;
+      this.sea = this.navParams.get('sea') || 'trust';
+      this.other_sea = this.sea == 'trust' ? 'compe' : 'trust';
   		translatorObs.subscribe(translations => {
   			this.loadingText = translations.LOADING_TEXT;
-        this.instructions = translations.INSTRUCTIONS;
-        this.wrongStepText = this.setup.strings['wrong_step'];
+        this.instructions = translations[`INSTRUCTIONS_${this.sea.toUpperCase()}`];
+        this.wrongStepTexts = [];
 	  		this.loadPuzzle(true);
   		});
   	});
@@ -64,6 +68,11 @@ export class GamePage {
   	this.loadPuzzle();
   }
 
+  navigate() {
+    this.audioPlayer.stopAll();
+    this.navCtrl.setRoot('GamePage', { sea: this.other_sea })
+  }
+
   loadPuzzle(initialize: boolean = false) {
   	//Present the loading indicator
   	this.ready = false;
@@ -72,7 +81,7 @@ export class GamePage {
   	loading.present();
 
     if (initialize) {
-      this.puzzleProvider.initialize(this.setup);
+      this.puzzleProvider.initialize(this.setup, this.sea);
     }
 
   	//Get the matrix information;
@@ -97,7 +106,7 @@ export class GamePage {
     if (step == null) {
       return;
     }
-    this.message = step ? tile.forward : ['<strong class="highlight-error">', tile.label, '</strong> - ', this.wrongStepText].join('');
+    this.message = step ? tile.forward : ['<strong class="highlight-error">', tile.label, '</strong> - ', this.getWrongStepText()].join('');
 
     
     //
@@ -115,5 +124,12 @@ export class GamePage {
 
   openConfig() {
     this.modalCtrl.create('SettingsPage').present();
+  }
+
+  private getWrongStepText() {
+    if (this.wrongStepTexts.length == 0){
+      this.wrongStepTexts = this.setup.strings['wrong_step'].slice(0);
+    }
+    return this.wrongStepTexts.splice(Math.round((this.wrongStepTexts.length - 1) * Math.random()), 1)[0];
   }
 }

@@ -1,0 +1,11 @@
+#!/bin/bash
+echo 'deleting previous build..'
+rm mardeconfianza.apk
+echo 'compiling...'
+ionic cordova build android --prod --release
+echo 'signing...'
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore mardeconfianza.pfx -storepass [PASSWORD] platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk mardeconfianza
+echo 'zipping...'
+zipalign -v 4 platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk mardeconfianza.apk 
+echo 'verifying...'
+apksigner verify mardeconfianza.apk

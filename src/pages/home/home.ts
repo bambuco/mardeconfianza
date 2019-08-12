@@ -13,7 +13,7 @@ export class HomePage {
   ionViewDidEnter() {
   }
 
-  play() {
-  	this.navCtrl.setRoot('GamePage');
+  play(sea) {
+  	this.navCtrl.setRoot('GamePage', {sea: sea});
   }
 }

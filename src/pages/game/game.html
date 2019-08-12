@@ -1,4 +1,4 @@
-<ion-content custom-padding no-bounce portrait>
+<ion-content custom-padding no-bounce portrait class="{{this.sea}}-sea">
 	<button ion-button icon-only clear class="settings-button" (click)="openConfig()">
 		<ion-icon name="settings"></ion-icon>
 	</button>
@@ -27,7 +27,12 @@
 <ion-footer>
 	<ion-row align-items-center justify-content-center>
 		<ion-col col-4 col-md-3 text-center [class.invisible]="!(puzzle?.completed)">
-			<button class="img-button btn-restart disable-hover" (click)="restart()">&nbsp;</button>
+			<button class="img-button btn btn-restart disable-hover" (click)="restart()">&nbsp;</button>
+		</ion-col>
+	</ion-row>
+	<ion-row align-items-center justify-content-center>
+		<ion-col col-4 col-md-3 text-center [class.invisible]="!(puzzle?.completed)">
+			<button class="img-button btn btn-navigate-{{this.other_sea}} disable-hover" (click)="navigate()">&nbsp;</button>
 		</ion-col>
 	</ion-row>
 </ion-footer>
@@ -35,6 +40,11 @@
 <div class="instructions-overlay" padding [hidden]="hideInstructions" portrait>
 	<div text-center col-md-10 offset-md-1>
 		<div class="notification" text-center [innerHTML]="instructions"></div>
-		<button class="img-button btn-play disable-hover" (click)="start()">&nbsp;</button>
+		<div>
+			<button class="img-button btn-play disable-hover" (click)="start()">&nbsp;</button>
+		</div>
+		<div style="margin-top: 10px">
+			<button class="img-button btn btn-navigate-{{this.other_sea}} disable-hover" (click)="navigate()">&nbsp;</button>
+		</div>
 	</div>
 </div>

@@ -1,5 +1,14 @@
 page-game {
 	
+	ion-content {
+		&.compe-sea {
+		  background-image: url('../assets/game/img/shared/es/bg_compe.png');
+		}
+		&.trust-sea {
+		  background-image: url('../assets/game/img/shared/es/bg_trust.png');
+		}
+	}
+
   .scroll-content {
     overflow: hidden;
   }
@@ -159,13 +168,22 @@ page-game {
 	  height: 100%;
 	}
 
-	.btn-restart {
-		background-image: url('../assets/game/img/shared/es/btn-restart.png');
+	.btn {
 		background-size: 100%;
 	  background-color: transparent;
 	  background-repeat: no-repeat;
 	  width: 120px;
 	  height: 120/253*93px;
+
+	  &.btn-restart {
+			background-image: url('../assets/game/img/shared/es/btn-restart.png');
+	  }
+	  &.btn-navigate-trust {
+			background-image: url('../assets/game/img/shared/es/btn_trust_sea.png');
+	  }
+	  &.btn-navigate-compe {
+			background-image: url('../assets/game/img/shared/es/btn_compe_sea.png');
+	  }
 	  
 	  @media(min-width: 576px) {
 		  width: 200px;

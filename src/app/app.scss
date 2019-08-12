@@ -67,6 +67,10 @@ ion-content {
 	}
 }
 
+ion-col.text-right {
+  padding-right: 20px;
+}
+
 .img-button {
 	background-size: 100%;
   background-color: transparent;
@@ -81,6 +85,14 @@ ion-content {
 
   &.btn-play {
 		background-image: url('../assets/game/img/shared/es/btn-play.png');
+  }
+
+  &.btn-play-st {
+    background-image: url('../assets/game/img/shared/es/btn_trust_sea.png');
+  }
+
+  &.btn-play-sc {
+    background-image: url('../assets/game/img/shared/es/btn_compe_sea.png');
   }
 
   &.btn-restart {
