@@ -1,35 +1,35 @@
 {
 	"strings": {
-		"aportes_sociales": { "label": "Aportes Sociales", "forward": "Bienvenido marinero, acabas de hacer su ingreso a <strong class='highlight-success'>la economía sin ánimo de lucro</strong> con este paso de los <strong class='highlight-success'>aportes sociales</strong>. Por favor siga su proceso." },
-		"propiedad_colectiva": { "label": "Propiedad colectiva", "forward": "Después de haber realizado sus aportes sociales, le informo que esta economía está centrada en la <strong class='highlight-success'>propiedad colectiva</strong> de sus asociados, esta empresa es de todos sus participantes." },
-		"cooperacion": { "label": "Coopera&shy;ción", "forward": "Marinero, marinero aquí se viene es a <strong class='highlight-success'>cooperar</strong>, tu eres parte de este equipo y sabemos que con los demás se es más, esa es nuestra estrategia de trabajo" },
-		"economia_social": { "label": "Economía social", "forward": "La decisión tomada es la empresa centrada en <strong class='highlight-success'>economía social</strong>, es decir buscar el máximo de beneficio tanto de clientes internos como externos del producto." },
-		"comercio_justo": { "label": "Comercio justo", "forward": "Señor(a) marinero(a) ha llegado a una consecuencia fundamental, la opción por un <strong class='highlight-success'>comercio justo</strong>, entendemos que todos los clientes tienen sus recursos para sus necesidades vitales." },
-		"excedentes": { "label": "Excedentes", "forward": "Bienvenido a la economía de <strong class='highlight-success'>excedentes</strong>, este es uno resultado lógico de la economía con los otros y para todos. Felicitaciones." },
-		"redistribucion": { "label": "Redistribu&shy;ción", "forward": "Cooperando, cooperando hemos logrado <strong class='highlight-success'>redistribución de la riqueza</strong>, es la realidad de las comunidades para construir este modelo económico y sacar pecho con lo nuestro." },
-		"beneficios": { "label": "Beneficios", "forward": "Mira marinero, ¡hasta donde hemos llegado con este proceder económico!,... <strong class='highlight-success'>¡a los beneficios!</strong>, el bienestar es el sentido de está economía, realidad de realidades, esperanza de las comunidades…" },
-		"sostenibilidad": { "label": "Sostenibi&shy;lidad", "forward": "Marinero, esta serie de pasos importantes logran la <strong class='highlight-success'>¡sostenibilidad!</strong> de la apuesta económica, que favorece a la sociedad." },
-		"bien_comun": { "label": "Bien común", "forward": "La satisfacción de este modelo económico es el <strong class='highlight-success'>bien común</strong>, construcción de varias comunidades que piensan en las siguientes generaciones." },
-		"bienvivir": { "label": "Bienvivir", "forward": "Esta economía tiene el sentido de los hermanos indígenas quechua con su visión <strong class='highlight-success'>sumak kawsay (bienvivir)</strong>, que significan vida en plenitud, en armonía y equilibrio con la naturaleza y en comunidad." },
 		"desigualdad": { "label": "Desigual&shy;dad", "forward": "Tristemente hay unos que ganan y otros que pierden y esta vez, nuevamente le toco perder y se <strong class='highlight-success'>incrementó la desigualdad</strong>, hasta aquí llegamos nosotros. Adios, adios... marinero a la mar..." },
-		"crecimiento_economico": { "label": "Crecimien&shy;to econó&shy;mi&shy;co", "forward": "Bienvenido al <strong class='highlight-success'>crecimiento económico</strong>, este es uno, por no decir el único; de nuestros mayores objetivos, la producción de ingresos, ingresos, ingresos... Felicitaciones." },
-		"ganancia": { "label": "Ganancia", "forward": "Señor (a) marinero(a) ha llegado a una consecuencia, donde se ha obtenido un máximo de <strong class='highlight-success'>ganancia</strong> y el cliente no se ha dado por entendido que ha perdido unos cuantos recursos fundamentales para sus necesidades vitales." },
-		"financiacion": { "label": "Financia&shy;ción", "forward": "Por definir" },
-		"progreso": { "label": "Progreso", "forward": "Mira marinero, ¡hasta donde ha llegado! Con su proceder económico,... al <strong class='highlight-success'>progreso</strong>, claro está que la sociedad lo entiende como un logro, ilusión de ilusiones, es solo eso..." },
 		"acumulacion": { "label": "Acumula&shy;ción", "forward": "La alegría de este modelo económico es el tipo de <strong class='highlight-success'>acumulación</strong>, que gran alegría es tener este modelo por un poco más de dos siglos." },
 		"apropiacion": { "label": "Apropiación", "forward": "Marinero has dado el paso importante de definiciones, es sobre la <strong class='highlight-success'>apropiación</strong> del Valor Agregado del producto, el cual solo me favorece como gran empresa." },
-		"dinero": { "label": "Dinero", "forward": "Por definir" },
-		"economia_naranja": { "label": "Economía naranja", "forward": "Por definir" },
-		"privatizacion": { "label": "Privatiza&shy;ción", "forward": "Por definir" },
-		"economia_de_mercado": { "label": "Economía de mercado", "forward": "La decisión tomada es la empresa centrada en el <strong class='highlight-success'>mercado</strong>, es decir buscar el máximo de precio que está dispuesto a dar el cliente al menor costo y menor tiempo de uso del producto." },
-		"enriquecimiento": { "label": "Enriqueci&shy;miento", "forward": "Por definir" },
-		"empresa": { "label": "Empresa", "forward": "Por definir" },
+		"beneficios": { "label": "Beneficios", "forward": "Mira marinero, ¡hasta donde hemos llegado con este proceder económico!,... <strong class='highlight-success'>¡a los beneficios!</strong>, el bienestar es el sentido de está economía, realidad de realidades, esperanza de las comunidades…" },
+		"recursos_limitados": { "label": "Recursos limitados", "forward": "Por definir" },
 		"gobierno": { "label": "Gobierno", "forward": "Por definir" },
+		"habilidades": { "label": "Habilidades", "forward": "Por definir" },
+		"progreso": { "label": "Progreso", "forward": "Mira marinero, ¡hasta donde ha llegado! Con su proceder económico,... al <strong class='highlight-success'>progreso</strong>, claro está que la sociedad lo entiende como un logro, ilusión de ilusiones, es solo eso..." },
+		"excedentes": { "label": "Excedentes", "forward": "Bienvenido a la economía de <strong class='highlight-success'>excedentes</strong>, este es uno resultado lógico de la economía con los otros y para todos. Felicitaciones." },
+		"redistribucion": { "label": "Redistribu&shy;ción", "forward": "Cooperando, cooperando hemos logrado <strong class='highlight-success'>redistribución de la riqueza</strong>, es la realidad de las comunidades para construir este modelo económico y sacar pecho con lo nuestro." },
+		"sostenibilidad": { "label": "Sostenibi&shy;lidad", "forward": "Marinero, esta serie de pasos importantes logran la <strong class='highlight-success'>¡sostenibilidad!</strong> de la apuesta económica, que favorece a la sociedad." },
+		"tecnologia": { "label": "Tecnología", "forward": "Por definir" },
+		"medios_materiales": { "label": "Medios materiales", "forward": "Por definir" },
+		"comercio_justo": { "label": "Comercio justo", "forward": "Señor(a) marinero(a) ha llegado a una consecuencia fundamental, la opción por un <strong class='highlight-success'>comercio justo</strong>, entendemos que todos los clientes tienen sus recursos para sus necesidades vitales." },
+		"pib": { "label": "PIB", "forward": "Compitiendo, compitiendo ha logrado el <strong class='highlight-success'>PIB</strong>, es el sofisma del gobierno para permanecer en este modelo económico y sacar pecho con lo que es de la gran empresa." },
+		"crecimiento_economico": { "label": "Crecimien&shy;to econó&shy;mi&shy;co", "forward": "Bienvenido al <strong class='highlight-success'>crecimiento económico</strong>, este es uno, por no decir el único; de nuestros mayores objetivos, la producción de ingresos, ingresos, ingresos... Felicitaciones." },
+		"bien_comun": { "label": "Bien común", "forward": "La satisfacción de este modelo económico es el <strong class='highlight-success'>bien común</strong>, construcción de varias comunidades que piensan en las siguientes generaciones." },
+		"bienvivir": { "label": "Bienvivir", "forward": "Esta economía tiene el sentido de los hermanos indígenas quechua con su visión <strong class='highlight-success'>sumak kawsay (bienvivir)</strong>, que significan vida en plenitud, en armonía y equilibrio con la naturaleza y en comunidad." },
+		"aportes_sociales": { "label": "Aportes Sociales", "forward": "Bienvenido marinero, acabas de hacer su ingreso a <strong class='highlight-success'>la economía sin ánimo de lucro</strong> con este paso de los <strong class='highlight-success'>aportes sociales</strong>. Por favor siga su proceso." },
+		"propiedad_colectiva": { "label": "Propiedad colectiva", "forward": "Después de haber realizado sus aportes sociales, le informo que esta economía está centrada en la <strong class='highlight-success'>propiedad colectiva</strong> de sus asociados, esta empresa es de todos sus participantes." },
+		"economia_social": { "label": "Economía social", "forward": "La decisión tomada es la empresa centrada en <strong class='highlight-success'>economía social</strong>, es decir buscar el máximo de beneficio tanto de clientes internos como externos del producto." },
+		"ganancia": { "label": "Ganancia", "forward": "Señor (a) marinero(a) ha llegado a una consecuencia, donde se ha obtenido un máximo de <strong class='highlight-success'>ganancia</strong> y el cliente no se ha dado por entendido que ha perdido unos cuantos recursos fundamentales para sus necesidades vitales." },
+		"economia_de_mercado": { "label": "Economía de mercado", "forward": "La decisión tomada es la empresa centrada en el <strong class='highlight-success'>mercado</strong>, es decir buscar el máximo de precio que está dispuesto a dar el cliente al menor costo y menor tiempo de uso del producto." },
+		"financiacion": { "label": "Financia&shy;ción", "forward": "Por definir" },
+		"gestion": { "label": "Gestión", "forward": "Por definir" },
+		"factor_c": { "label": "Factor C", "forward": "Por definir" },
+		"cooperacion": { "label": "Coopera&shy;ción", "forward": "Marinero, marinero aquí se viene es a <strong class='highlight-success'>cooperar</strong>, tu eres parte de este equipo y sabemos que con los demás se es más, esa es nuestra estrategia de trabajo" },
+		"competitividad": { "label": "Competiti&shy;vidad", "forward": "Marinero, marinero aquí se viene es a <strong class='highlight-success'>competir</strong>, tu eres capaz y sabemos que eres mejor que los demás, esa es nuestra estrategia de trabajo" },
 		"propiedad_privada": { "label": "Propiedad privada", "forward": "Después de haber realizado sus aportes de capital, le informo que esta economía está centrada en la <strong class='highlight-success'>propiedad privada</strong> de sus socios y nadie más, este es un grupo elite de la sociedad." },
 		"capital": { "label": "Capital", "forward": "Bienvenido marinero, acabas de hacer su ingreso a la <strong class='highlight-success'>economía de lucro</strong> con este paso de los <strong class='highlight-success'>aportes de capital</strong>. Por favor siga su proceso." },
-		"pib": { "label": "PIB", "forward": "Compitiendo, compitiendo ha logrado el <strong class='highlight-success'>PIB</strong>, es el sofisma del gobierno para permanecer en este modelo económico y sacar pecho con lo que es de la gran empresa." },
-		"negocio": { "label": "Negocio", "forward": "Por definir" },
-		"competitividad": { "label": "Competiti&shy;vidad", "forward": "Marinero, marinero aquí se viene es a <strong class='highlight-success'>competir</strong>, tu eres capaz y sabemos que eres mejor que los demás, esa es nuestra estrategia de trabajo" },
 		"wrong_step": [
 			"<strong class='highlight-error'>Por aquí no es... devuélvete, activa tu memoria y volvamos a empezar.</strong>",
 			"<strong class='highlight-error'>Marinero, marinero, revisa bien tus acciones, que te llevan a errores. Debe salir del proceso y otro continuara su empresa</strong>",
@@ -43,10 +43,10 @@
 			"board": [
 				["desigualdad", "financiacion", "bienvivir", "crecimiento_economico", "ganancia"],
 				["gobierno", "progreso", "bien_comun", "sostenibilidad", "beneficios"],
-				["dinero", "empresa", "apropiacion", "economia_de_mercado", "redistribucion"],
-				["acumulacion", "economia_naranja", "privatizacion", "comercio_justo", "excedentes"],
-				["enriquecimiento", "propiedad_colectiva", "cooperacion", "economia_social", "propiedad_privada"],
-				["capital", "aportes_sociales", "negocio", "pib", "competitividad"]
+				["recursos_limitados", "gestion", "apropiacion", "economia_de_mercado", "redistribucion"],
+				["acumulacion", "habilidades", "tecnologia", "comercio_justo", "excedentes"],
+				["medios_materiales", "propiedad_colectiva", "cooperacion", "economia_social", "propiedad_privada"],
+				["capital", "aportes_sociales", "factor_c", "pib", "competitividad"]
 			],
 			"path": ["B6", "B5", "C5", "D5", "D4", "E4", "E3", "E2", "D2", "C2", "C1"],
 			"sea": "trust"
@@ -54,10 +54,10 @@
 			"board": [
 				["desigualdad", "financiacion", "crecimiento_economico", "ganancia", "bienvivir"],
 				["gobierno", "progreso", "economia_de_mercado", "apropiacion", "bien_comun"],
-				["dinero", "excedentes", "redistribucion", "beneficios", "sostenibilidad"],
-				["acumulacion", "comercio_justo", "economia_naranja", "privatizacion", "empresa"],
-				["enriquecimiento", "economia_social", "cooperacion", "propiedad_colectiva", "propiedad_privada"],
-				["capital", "negocio", "pib", "aportes_sociales", "competitividad"]
+				["recursos_limitados", "excedentes", "redistribucion", "beneficios", "sostenibilidad"],
+				["acumulacion", "comercio_justo", "habilidades", "tecnologia", "gestion"],
+				["medios_materiales", "economia_social", "cooperacion", "propiedad_colectiva", "propiedad_privada"],
+				["capital", "factor_c", "pib", "aportes_sociales", "competitividad"]
 			],
 			"path": ["D6", "D5", "C5", "B5", "B4", "B3", "C3", "D3", "E3", "E2", "E1"],
 			"sea": "trust"
@@ -65,10 +65,10 @@
 			"board": [
 				["desigualdad", "bienvivir", "financiacion", "crecimiento_economico", "ganancia"],
 				["gobierno", "bien_comun", "progreso", "economia_de_mercado", "apropiacion"],
-				["dinero", "redistribucion", "sostenibilidad", "beneficios", "privatizacion"],
-				["acumulacion", "enriquecimiento", "economia_naranja", "excedentes", "empresa"],
+				["recursos_limitados", "redistribucion", "sostenibilidad", "beneficios", "tecnologia"],
+				["acumulacion", "medios_materiales", "habilidades", "excedentes", "gestion"],
 				["propiedad_colectiva", "cooperacion", "economia_social", "comercio_justo", "propiedad_privada"],
-				["aportes_sociales", "capital", "negocio", "pib", "competitividad"]
+				["aportes_sociales", "capital", "factor_c", "pib", "competitividad"]
 			],
 			"path": ["A6", "A5", "B5", "C5", "D5", "D4", "D3", "C3", "B3", "B2", "B1"],
 			"sea": "trust"
@@ -77,9 +77,9 @@
 				["desigualdad", "financiacion", "crecimiento_economico", "ganancia", "bienvivir"],
 				["gobierno", "progreso", "economia_de_mercado", "apropiacion", "bien_comun"],
 				["comercio_justo", "excedentes", "redistribucion", "sostenibilidad", "beneficios"],
-				["economia_social", "enriquecimiento", "privatizacion", "economia_naranja", "empresa"],
-				["cooperacion", "propiedad_colectiva", "acumulacion", "dinero", "propiedad_privada"],
-				["capital", "aportes_sociales", "negocio", "pib", "competitividad"]
+				["economia_social", "medios_materiales", "tecnologia", "habilidades", "gestion"],
+				["cooperacion", "propiedad_colectiva", "acumulacion", "recursos_limitados", "propiedad_privada"],
+				["capital", "aportes_sociales", "factor_c", "pib", "competitividad"]
 			],
 			"path": ["B6", "B5", "A5", "A4", "A3", "B3", "C3", "D3", "E3", "E2", "E1"],
 			"sea": "trust"
@@ -90,10 +90,10 @@
 			"board": [
 				["bienvivir", "financiacion", "desigualdad", "excedentes", "comercio_justo"],
 				["gobierno", "beneficios", "acumulacion", "apropiacion", "progreso"],
-				["dinero", "empresa", "sostenibilidad", "economia_social", "pib"],
-				["bien_comun", "economia_naranja", "privatizacion", "ganancia", "crecimiento_economico"],
-				["enriquecimiento", "propiedad_privada", "competitividad", "economia_de_mercado", "propiedad_colectiva"],
-				["aportes_sociales", "capital", "negocio", "redistribucion", "cooperacion"]
+				["recursos_limitados", "gestion", "sostenibilidad", "economia_social", "pib"],
+				["bien_comun", "habilidades", "tecnologia", "ganancia", "crecimiento_economico"],
+				["medios_materiales", "propiedad_privada", "competitividad", "economia_de_mercado", "propiedad_colectiva"],
+				["aportes_sociales", "capital", "factor_c", "redistribucion", "cooperacion"]
 			],
 			"path": ["B6", "B5", "C5", "D5", "D4", "E4", "E3", "E2", "D2", "C2", "C1"],
 			"sea": "compe"
@@ -101,10 +101,10 @@
 			"board": [
 				["bienvivir", "financiacion", "excedentes", "comercio_justo", "desigualdad"],
 				["gobierno", "beneficios", "economia_social", "sostenibilidad", "acumulacion"],
-				["dinero", "crecimiento_economico", "pib", "progreso", "apropiacion"],
-				["bien_comun", "ganancia", "economia_naranja", "privatizacion", "empresa"],
-				["enriquecimiento", "economia_de_mercado", "competitividad", "propiedad_privada", "propiedad_colectiva"],
-				["aportes_sociales", "negocio", "redistribucion", "capital", "cooperacion"]
+				["recursos_limitados", "crecimiento_economico", "pib", "progreso", "apropiacion"],
+				["bien_comun", "ganancia", "habilidades", "tecnologia", "gestion"],
+				["medios_materiales", "economia_de_mercado", "competitividad", "propiedad_privada", "propiedad_colectiva"],
+				["aportes_sociales", "factor_c", "redistribucion", "capital", "cooperacion"]
 			],
 			"path": ["D6", "D5", "C5", "B5", "B4", "B3", "C3", "D3", "E3", "E2", "E1"],
 			"sea": "compe"
@@ -112,10 +112,10 @@
 			"board": [
 				["bienvivir", "desigualdad", "financiacion", "excedentes", "comercio_justo"],
 				["gobierno", "acumulacion", "beneficios", "economia_social", "sostenibilidad"],
-				["dinero", "pib", "apropiacion", "progreso", "privatizacion"],
-				["bien_comun", "enriquecimiento", "economia_naranja", "crecimiento_economico", "empresa"],
+				["recursos_limitados", "pib", "apropiacion", "progreso", "tecnologia"],
+				["bien_comun", "medios_materiales", "habilidades", "crecimiento_economico", "gestion"],
 				["propiedad_privada", "competitividad", "economia_de_mercado", "ganancia", "propiedad_colectiva"],
-				["capital", "aportes_sociales", "negocio", "redistribucion", "cooperacion"]
+				["capital", "aportes_sociales", "factor_c", "redistribucion", "cooperacion"]
 			],
 			"path": ["A6", "A5", "B5", "C5", "D5", "D4", "D3", "C3", "B3", "B2", "B1"],
 			"sea": "compe"
@@ -124,9 +124,9 @@
 				["bienvivir", "financiacion", "excedentes", "comercio_justo", "desigualdad"],
 				["gobierno", "beneficios", "economia_social", "sostenibilidad", "acumulacion"],
 				["ganancia", "crecimiento_economico", "pib", "apropiacion", "progreso"],
-				["economia_de_mercado", "enriquecimiento", "privatizacion", "economia_naranja", "empresa"],
-				["competitividad", "propiedad_privada", "bien_comun", "dinero", "propiedad_colectiva"],
-				["aportes_sociales", "capital", "negocio", "redistribucion", "cooperacion"]
+				["economia_de_mercado", "medios_materiales", "tecnologia", "habilidades", "gestion"],
+				["competitividad", "propiedad_privada", "bien_comun", "recursos_limitados", "propiedad_colectiva"],
+				["aportes_sociales", "capital", "factor_c", "redistribucion", "cooperacion"]
 			],
 			"path": ["B6", "B5", "A5", "A4", "A3", "B3", "C3", "D3", "E3", "E2", "E1"],
 			"sea": "compe"
