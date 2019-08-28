@@ -32,8 +32,8 @@
 		"capital": { "label": "Capital", "forward": "Bienvenido marinero, acabas de hacer su ingreso a la <strong class='highlight-success'>economía de lucro</strong> con este paso de los <strong class='highlight-success'>aportes de capital</strong>. Por favor siga su proceso." },
 		"wrong_step": [
 			"<strong class='highlight-error'>Por aquí no es... devuélvete, activa tu memoria y volvamos a empezar.</strong>",
-			"<strong class='highlight-error'>Marinero, marinero, revisa bien tus acciones, que te llevan a errores. Debe salir del proceso y otro continuara su empresa</strong>",
-			"<strong class='highlight-error'>Este marinero tomo una decisión equivocada, debe tener relevo.</strong>",
+			"<strong class='highlight-error'>Marinero, marinero, revisa bien tus acciones, que te llevan a errores. Debe salir del proceso y otro continuará su empresa</strong>",
+			"<strong class='highlight-error'>Este marinero tomó una decisión equivocada, debe tener relevo.</strong>",
 			"<strong class='highlight-error'>No corresponde el paso, ceda el turno</strong>",
 			"<strong class='highlight-error'>Error de procedimiento, otro iniciará el proceso</strong>",
 			"<strong class='highlight-error'>Reproceso, reproceso... vuelve y juega</strong>"
@@ -65,7 +65,7 @@
 			"board": [
 				["desigualdad", "bienvivir", "financiacion", "crecimiento_economico", "ganancia"],
 				["gobierno", "bien_comun", "progreso", "economia_de_mercado", "apropiacion"],
-				["recursos_limitados", "redistribucion", "sostenibilidad", "beneficios", "tecnologia"],
+				["recursos_limitados", "sostenibilidad", "beneficios", "redistribucion", "tecnologia"],
 				["acumulacion", "medios_materiales", "habilidades", "excedentes", "gestion"],
 				["propiedad_colectiva", "cooperacion", "economia_social", "comercio_justo", "propiedad_privada"],
 				["aportes_sociales", "capital", "factor_c", "pib", "competitividad"]
@@ -76,7 +76,7 @@
 			"board": [
 				["desigualdad", "financiacion", "crecimiento_economico", "ganancia", "bienvivir"],
 				["gobierno", "progreso", "economia_de_mercado", "apropiacion", "bien_comun"],
-				["comercio_justo", "excedentes", "redistribucion", "sostenibilidad", "beneficios"],
+				["comercio_justo", "excedentes", "redistribucion", "beneficios", "sostenibilidad"],
 				["economia_social", "medios_materiales", "tecnologia", "habilidades", "gestion"],
 				["cooperacion", "propiedad_colectiva", "acumulacion", "recursos_limitados", "propiedad_privada"],
 				["capital", "aportes_sociales", "factor_c", "pib", "competitividad"]
@@ -112,7 +112,7 @@
 			"board": [
 				["bienvivir", "desigualdad", "financiacion", "excedentes", "comercio_justo"],
 				["gobierno", "acumulacion", "beneficios", "economia_social", "sostenibilidad"],
-				["recursos_limitados", "pib", "apropiacion", "progreso", "tecnologia"],
+				["recursos_limitados", "apropiacion", "progreso", "pib", "tecnologia"],
 				["bien_comun", "medios_materiales", "habilidades", "crecimiento_economico", "gestion"],
 				["propiedad_privada", "competitividad", "economia_de_mercado", "ganancia", "propiedad_colectiva"],
 				["capital", "aportes_sociales", "factor_c", "redistribucion", "cooperacion"]
@@ -123,7 +123,7 @@
 			"board": [
 				["bienvivir", "financiacion", "excedentes", "comercio_justo", "desigualdad"],
 				["gobierno", "beneficios", "economia_social", "sostenibilidad", "acumulacion"],
-				["ganancia", "crecimiento_economico", "pib", "apropiacion", "progreso"],
+				["ganancia", "crecimiento_economico", "pib", "progreso", "apropiacion"],
 				["economia_de_mercado", "medios_materiales", "tecnologia", "habilidades", "gestion"],
 				["competitividad", "propiedad_privada", "bien_comun", "recursos_limitados", "propiedad_colectiva"],
 				["aportes_sociales", "capital", "factor_c", "redistribucion", "cooperacion"]
